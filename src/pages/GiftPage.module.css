@@ -1,0 +1,31 @@
+.Container {
+}
+
+.Title {
+	margin: 15px;
+	opacity: 90%;
+	margin-left: 23px;
+	font-family: 'Charis SIL', serif;
+}
+
+.FilterContainer {
+	display: flex;
+	justify-content: space-between;
+}
+.Filter {
+	margin: 5px 24px;
+}
+
+.FilterText {
+	font-size: 24px;
+	font-weight: 600;
+	margin-right: 20px;
+	font-family: 'Charis SIL', serif;
+}
+
+.Select {
+	padding: 10px;
+	margin-right: 20px;
+}
+.Option {
+}

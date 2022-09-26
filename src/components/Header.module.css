@@ -1,0 +1,33 @@
+.wrapper {
+	background-color: #46cfbe;
+	display: flex;
+}
+
+.wrapper ul {
+	margin: 0;
+	padding: 10px;
+	list-style: none;
+}
+
+.wrapper li:first-child {
+	margin-right: 30px;
+}
+
+.wrapper li {
+	text-decoration: none;
+	color: white;
+	display: inline;
+}
+
+.wrapper li a {
+	text-decoration: none;
+	color: white;
+}
+
+.wrapper .right {
+	margin-left: auto;
+}
+
+.wrapper ion-icon {
+	margin-bottom: -3px;
+}

@@ -1,0 +1,76 @@
+.like_container {
+}
+
+
+.like_container table {
+    width: 100%;
+    border: 1px solid black;
+    text-align: center;
+}
+.like_header {
+    background-image: url('../assets/images/likepage.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    width: 100%;
+}
+.like_body {
+    margin: 50px 20px;
+}
+
+.div_btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.div_btn button {
+    width: 30%;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 18px;
+}
+.delete_button {
+    background-color: #fa505f;
+}
+.add_button {
+    background-color: #46fcbe;
+}
+.like_detail thead th {
+    border: 1px solid black;  
+}
+
+.like_header ul {
+    list-style: none;
+    padding: 0;
+}
+
+.like_header li {
+    display: inline;
+}
+
+.like_header li:not(:last-child) {
+    padding-right: 10px;
+}
+
+.like_header li:not(:last-child)::after {
+    content: ">";
+    position: relative;
+    left: 5px;
+}
+
+.like_header li:last-child {
+    color: red;
+}
+
+@media screen and (orientation: portrait) and (max-width: 768px) {
+    .delete_button {
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+    .add_button {
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+}
